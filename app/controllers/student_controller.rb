@@ -2,7 +2,7 @@ class StudentController < ApplicationController
   
   def index 
     all_students = Student.all 
-    index.html 
+    render "index"
   end 
   
 end 
